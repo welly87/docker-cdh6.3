@@ -1,0 +1,15 @@
+CREATE ROLE cloudera LOGIN PASSWORD 'P4ssw0rd';
+
+CREATE DATABASE scm OWNER cloudera ENCODING 'UTF8';
+CREATE DATABASE amon OWNER cloudera ENCODING 'UTF8';
+CREATE DATABASE rman OWNER cloudera ENCODING 'UTF8';
+CREATE DATABASE hue OWNER cloudera ENCODING 'UTF8';
+CREATE DATABASE metastore OWNER cloudera ENCODING 'UTF8';
+CREATE DATABASE sentry OWNER cloudera ENCODING 'UTF8';
+CREATE DATABASE nav OWNER cloudera ENCODING 'UTF8';
+CREATE DATABASE navms OWNER cloudera ENCODING 'UTF8';
+CREATE DATABASE oozie OWNER cloudera ENCODING 'UTF8';
+
+ALTER DATABASE metastore SET standard_conforming_strings=off;
+
+ALTER DATABASE metastore SET standard_conforming_strings=off;
