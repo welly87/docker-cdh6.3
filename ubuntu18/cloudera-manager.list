@@ -1,0 +1,2 @@
+# Cloudera Manager 6.3.1
+deb [arch=amd64] http://archive.cloudera.com/cm6/6.3.1/ubuntu1804/apt bionic-cm6.3.1 contrib
