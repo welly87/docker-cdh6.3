@@ -21,3 +21,6 @@ docker run -it --privileged=true -u root cdh:5.0
 
 
 docker tag welly87/cdh:5 welly87/cdh:5; docker push welly87/cdh:5
+
+git config --global user.email "if05041@gmail.com"
+git config --global user.name "Welly Tambunan"
